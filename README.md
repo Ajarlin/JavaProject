@@ -1,6 +1,6 @@
 # JavaProjects
-## Info on Projects:
-	### ImageChecker
+##Info on Projects:
+	###ImageChecker
 		Is built purely using Java
 		Input(Takes in an image using a directory through command line)
 			Examples: 
@@ -15,13 +15,13 @@
 			If the image file exists in archive's folder it is overwritten
 			
 
-	### JsonToExcel
+	###JsonToExcel
 		Is built using the json.jar file and Maven Dependency of org.apache.poi poi and org.apache.poi ooxml
 		Input(Takes in a json file using a directory through command line)
 			Example: 
 			C:\Users\Soul\Desktop\people.json
 		
-		### Assumptions:
+		###Assumptions:
 			Json File is formatted to the following Structure => JSONObj to JsonArray of JSONObjs
 			{
 				"something": [	
