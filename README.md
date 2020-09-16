@@ -15,11 +15,10 @@ Moves an image from any windows directory into a locally stored "image folder", 
 			The "Archive Folder" and "Image Folder" are located within the ImageChecker folder  
 			If the image file exists in archive's folder it is overwritten  
 
-				
-				
-				
-				
-		JsonToExcel  
+								
+##JsonToExcel  
+Takes a json file as input where java parses the data and creates an xls file and txt file containing the content of the json file
+
 			Is built using the json.jar(https://repo1.maven.org/maven2/org/json/json/20200518/json-20200518.jar) file 
 			and Maven Dependency of org.apache.poi poi and org.apache.poi ooxml
 			Input(Takes in a json file using a directory through command line)
