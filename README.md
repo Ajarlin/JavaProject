@@ -18,7 +18,7 @@ Moves an image from any windows directory into a locally stored "image folder", 
 								
 ## JsonToExcel  
 Takes a json file as input where java parses the data and creates an xls file and txt file containing the content of the json file  
-Uses the [json.jar](https://repo1.maven.org/maven2/org/json/json/20200518/json-20200518.jar/) file and Maven Dependencies of "org.apache.poi poi" and "org.apache.poi ooxml"
+Uses the [json.jar](https://repo1.maven.org/maven2/org/json/json/20200518/json-20200518.jar/) file and Maven Dependencies of **org.apache.poi poi** and **org.apache.poi ooxml**
 
 
 			Input(Takes in a json file using a directory through command line)
