@@ -10,7 +10,7 @@ Moves an image from any windows directory into a locally stored "image folder", 
 						C:\Users\home\Desktop\JavaProject\ImageChecker\image\dog.png
 						C:\Users\home\Desktop\index.png
 			Assumptions:
-				The ImageChecker generally works with any file but I limited it to the most popular know image types  
+				The ImageChecker generally works with any file (but limited to the following ext):
 				jpeg(jpg), png, gif, tiff, psd, pdf, eps, ai, svg, indd, raw, svg  
 				The "Archive Folder" and "Image Folder" are located within the ImageChecker folder  
 				If the image file exists in archive's folder it is overwritten  
