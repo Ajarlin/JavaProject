@@ -9,7 +9,7 @@ Moves an image from any windows directory into a locally stored "image folder", 
 					Examples: 
 						C:\Users\home\Desktop\JavaProject\ImageChecker\image\dog.png
 						C:\Users\home\Desktop\index.png
-			**Assumptions:**
+			Assumptions:
 				The ImageChecker generally works with any file but I limited it to the most popular know image types  
 				jpeg(jpg), png, gif, tiff, psd, pdf, eps, ai, svg, indd, raw, svg  
 				The "Archive Folder" and "Image Folder" are located within the ImageChecker folder  
@@ -25,6 +25,14 @@ Uses the [json.jar](https://repo1.maven.org/maven2/org/json/json/20200518/json-2
 				Example: 
 				C:\Users\Soul\Desktop\people.json
 
+			Ouput:
+				Example if we take in C:\Users\Soul\Desktop\people.json
+				The output file will be "people.xls" => name_of_file.xls
+				With the contents of the json file
+				It will also print out a file pipe delimited as "people_output".txt => fileName_output.txt
+
+
+			
 			Assumptions:
 				Json File is formatted to the following Structure => JSONObj to JsonArray of JSONObjs
 				{
@@ -35,11 +43,5 @@ Uses the [json.jar](https://repo1.maven.org/maven2/org/json/json/20200518/json-2
 					]
 				}
 			
-
-			**Ouput:**
-				Example if we take in C:\Users\Soul\Desktop\people.json
-				The output file will be "people.xls" => name_of_file.xls
-				With the contents of the json file
-				It will also print out a file pipe delimited as "people_output".txt => fileName_output.txt
 
 				
