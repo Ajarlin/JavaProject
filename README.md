@@ -1,5 +1,6 @@
 # JavaProjects  
- 	 Info on Projects:
+
+Info on Projects:
  
 		ImageChecker
 				Is built purely using Java  
