@@ -1,10 +1,11 @@
 # JavaProjects  
 
 Info on Projects:
- 
-		ImageChecker
-				Is built purely using Java  
-				Input(Takes in an image using a directory through command line)  
+## ImageChecker
+Moves an image from any windows directory into a locally stored "image folder", if the image(in name) already exists in the folder it will move the existing image into an archive folder and the selected image into the archive folder
+
+			Is built purely using Java  
+			Input(Takes in an image using a directory through command line)  
 					Examples: 
 						C:\Users\home\Desktop\JavaProject\ImageChecker\image\dog.png
 						C:\Users\home\Desktop\index.png
